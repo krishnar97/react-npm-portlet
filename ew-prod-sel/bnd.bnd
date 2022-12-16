@@ -1,0 +1,5 @@
+Bundle-Name: ew-prod-sel
+Bundle-SymbolicName: ew.prod.sel
+Bundle-Version: 1.0.0
+Export-Package: ew.prod.sel.constants
+Web-ContextPath: /ew-prod-sel

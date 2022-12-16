@@ -1,0 +1,18 @@
+{
+	"dependencies": {
+	   "react": "16.12.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.0.0",
+		"@babel/core": "^7.0.0",
+		"@babel/preset-env": "^7.0.0",
+		"@babel/preset-react": "^7.0.0",
+		"liferay-npm-bundler": "2.18.2"
+	},
+	"main": "lib/Test.js",
+	"name": "ew-prod-sel",
+	"scripts": {
+		"build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
+	},
+	"version": "1.0.0"
+}
